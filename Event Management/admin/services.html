@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <style>
+    /* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  background-color: #45a049;
+}
+/* Main Content Styles */
+main {
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #db6a36;
+  border-radius: 4px;
+  text-align: center;
+  transition: transform 0.3s;
+  background-color: #26dab398;
+}
+.service p{
+    color: #000000;
+}
+.service:hover {
+  transform: scale(1.05);
+  color: rgb(255, 224, 45);
+  border-width: 1px;
+}
+
+.service h2 {
+  margin-top: 0;
+  color: rgb(157, 30, 207);
+}
+.fonts{
+    font-family:monospace;
+    color: royalblue;
+    font-weight: bolder;
+    font-style: italic;
+    font-display:inherit;
+   text-align: right;
+  }
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="header">
+    <nav class="navbar">
+      <section class="navbar-nav">
+        <a href="home.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.php" class="nav-link">Contact Us</a>
+        <a href="location.html" class="nav-link">Locate Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="user-inquiry.html" class="nav-link">Book Appointment</a>
+      </section>
+      <h2 class="fonts">Elites Event Organizers</h2>
+    </nav>
+  </header>
+
+<!-- Main Content -->
+<main> 
+    <h1>Our Services</h1>
+    <div class="services">
+      <a href="contact.php" class="service">
+        <h2>Event Planning</h2>
+        <p>Let us handle the planning and coordination of your special event. From weddings to corporate gatherings, we ensure a seamless and memorable experience for all.</p>
+      </a>
+      <a href="contact.php" class="service">
+        <h2>Venue Decoration</h2>
+        <p>Transform your event venue into a breathtaking space with our professional decoration services. We create captivating and personalized setups to suit your theme and preferences.</p>
+      </a>
+      <a href="contact.php" class="service">
+        <h2>Catering Services</h2>
+        <p>Indulge your guests with delectable culinary creations. Our experienced chefs and staff provide top-quality catering services, tailored to your event's style and dietary requirements.</p>
+      </a>
+      <a href="contact.php" class="service">
+        <h2>Photography</h2>
+        <p>Capture every precious moment of your event with our expert photography services. Our talented photographers ensure stunning images that preserve the essence and emotions of the occasion.</p>
+      </a>
+      <a href="contact.php" class="service">
+        <h2>Transportation</h2>
+        <p>Make transportation a breeze for your guests. We offer reliable and comfortable transportation solutions, ensuring a smooth and convenient experience from arrival to departure.</p>
+      </a>
+      <a href="contact.php" class="service">
+        <h2>Entertainment</h2>
+        <p>Elevate your event with captivating entertainment options. From live music performances to engaging activities, we provide entertainment that keeps your guests entertained and enthralled.</p>
+      </a>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2023 Elites Event Organizers. All rights reserved.</p>
+  </footer>
+</body>
+</html>

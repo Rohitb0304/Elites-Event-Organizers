@@ -1,0 +1,92 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: rgb(10, 46, 207);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .event-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .event-box h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .event-box p {
+    margin: 0;
+  }
+  .event-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .event-box h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .event-box p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .event-box .event-details {
+    margin-bottom: 10px;
+  }
+  
+  .event-box .event-details p {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .event-box .event-details p:last-child {
+    margin-right: 0;
+  }
+  
+  .event-box .event-details strong {
+    color: #333;
+  }
+  
+  .event-box .event-details span {
+    color: #666;
+  }
+  
+  .event-box .event-details p.materials {
+    white-space: pre-line;
+  }
+  
+  .event-box .payment-status {
+    font-weight: bold;
+  }
+  
+  .event-box.pending {
+    background-color: #fde8cf;
+  }
+  
+  .event-box.paid {
+    background-color: #d2f0e5;
+  }
+  

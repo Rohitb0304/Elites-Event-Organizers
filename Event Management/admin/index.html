@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard - Elites Event Organizers</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+/* CSS for index.html */
+
+/* Reset default styles for lists and links */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Container Styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+.button {
+  display: block;
+  align-items: normal;
+  padding: 15px 30px;
+  margin: 10px auto;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Add different colors to each button */
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-tertiary {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button-quaternary {
+  background-color: #ffc107;
+  color: #000;
+}
+
+/* Hover effect */
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Apply the button styles to links with specific classes */
+.button-link {
+  text-decoration: dotted;
+  color: #fff;
+}
+
+.button-link-primary {
+  background-color: #007bff;
+}
+
+.button-link-secondary {
+  background-color: #28a745;
+}
+
+.button-link-tertiary {
+  background-color: #dc3545;
+}
+
+.button-link-quaternary {
+  background-color: #ffc107;
+}
+
+.manage {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #dc3545;
+}
+
+.manage a {
+  text-decoration:dotted;
+  color: #dc3545;
+}
+
+.manage button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.manage button:hover {
+  opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Elites Event Organizers</h1>
+    <a href="event-list.php" class="button-link button-link-primary">View Events</a>
+    <a href="create-event.php"class="button-link button-link-secondary">Create Event</a>
+    <a href="inquiry-list.php" class="button-link button-link-tertiary">View online inquiries</a>
+    <a href="manager.html"class="button-link button-link-quaternary">Manager Login</a>
+  </div>
+
+</body>
+</html>

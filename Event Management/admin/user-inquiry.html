@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Inquiry</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .fonts{
+    font-family:monospace;
+    color: royalblue;
+    font-weight: bold;
+    font-style: italic;
+    font-display:inherit;
+   text-align: center;
+  }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    label {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="checkbox"] {
+      margin-top: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="fonts">Elites Event Organizers</h2>
+    <h1>User Inquiry</h1>
+    <form action="save-inquiry.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+      <label for="contact_number">Contact Number:</label>
+      <input type="text" name="contact_number" id="contact_number" required>
+      <label for="event_name">Event Name:</label>
+      <input type="text" name="event_name" id="event_name" required>
+      <label for="event_details">Event Details (Maximum Participants, etc.):</label>
+      <textarea name="event_details" id="event_details" required></textarea>
+      <label for="product_interest">Product Interest:</label>
+      <select name="product_interest" id="product_interest">
+        <option value="Entire Event Organizing.">Entire Event Organizing.</option>
+        <option value="Transportation">Transportation</option>
+        <option value="Food Catering">Food Catering</option>
+        <option value="Flowers and decoration">Flowers and decoration</option>
+      </select>
+      <label for="event_type">Event Type:</label>
+      <select name="event_type" id="event_type">
+        <option value="Birthday Party">Birthday Party</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Destination Wedding">Destination Wedding</option>
+        <option value="Farewell Party">Farewell Party</option>
+        <option value="Meeting">Meeting</option>
+        <option value="Hotel Booking at Elevate Suites">Hotel Booking at Elevate Suites</option>
+      </select>
+      <label for="confirmation">Confirmation: I click on the confirmation button to submit my data to the company</label>
+      <input type="checkbox" name="confirmation" id="confirmation" required>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
